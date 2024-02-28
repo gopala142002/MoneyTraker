@@ -8,8 +8,9 @@ body
   color: #ddd;
 }
 main{
+  position: relative;
   max-width: 360px;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 h1
 {
@@ -43,6 +44,11 @@ form button
   border-radius: 5px;
   padding: 5px;
   background-color: #ddd;
+  cursor: pointer;
+}
+form button:hover
+{
+  background-color: #979090;
 }
 div.transactions
 {
