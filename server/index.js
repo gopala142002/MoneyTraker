@@ -11,7 +11,7 @@ const PORT=process.env.PORT || 3333;
 app.listen(PORT,()=>{
     console.log(`SERVER IS RUNNING AT PORT NUMBER ${PORT}`);
 })
-app.get('/',(req,res)=>{
+app.get('/server',(req,res)=>{
     res.send("Hello everyone");
 });
 app.post('/server/transaction',addTransaction);
