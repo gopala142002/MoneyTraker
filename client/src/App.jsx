@@ -50,13 +50,13 @@ function App() {
     totalAmount += getAmount(transaction.Amount);
   }
   return (
-    <div style={{"position":"relative"}}>
-      <div style={{"position":"absolute"}}>
-        <Bg/>
+    <div style={{ position: "relative" }}>
+      <div style={{ position: "absolute" }}>
+        <Bg />
       </div>
-      <div style={{"paddingTop":"50px"}}>
+      <div style={{ paddingTop: "50px" }}>
         <main>
-          <h1 style={{"color":(totalAmount<0) ? "red":"green" }}>
+          <h1 style={{ color: totalAmount < 0 ? "red" : "green" }}>
             $ {totalAmount}
             <span>.00</span>
           </h1>
@@ -114,7 +114,6 @@ function App() {
           </div>
         </main>
       </div>
-
     </div>
   );
 }
