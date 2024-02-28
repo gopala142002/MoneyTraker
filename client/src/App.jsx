@@ -19,7 +19,7 @@ function App() {
     return amount;
   };
   const getTransactions = async () => {
-    const url = "https://moneytraker-1.onrender.com/server/transactions";
+    const url = "https://moneytraker.onrender.com/server/transactions";
     const res = await fetch(url);
     const data = await res.json();
     return data;
