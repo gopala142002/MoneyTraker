@@ -38,8 +38,7 @@ const Bg = () => {
           <span style={{"--i":"34"}}></span>
           <span style={{"--i":"27"}}></span>
           <span style={{"--i":"10"}}></span>
-          <span style={{"--i":"19"}}></span>
-          <span style={{"--i":"23"}}></span>
+          <span style={{"--i":"24"}}></span>
         </div>
       </div>
     </div>
