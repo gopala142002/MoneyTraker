@@ -25,7 +25,7 @@ function App() {
   };
   const addNewTransaction = (e) => {
     e.preventDefault();
-    const url = "https://moneytraker-1.onrender.com/server/transaction";
+    const url = "https://moneytraker.onrender.com/server/transaction";
     const amount = name.split(" ")[0];
     fetch(url, {
       method: "POST",
