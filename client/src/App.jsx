@@ -19,14 +19,14 @@ function App() {
     return amount;
   };
   const getTransactions = async () => {
-    const url = "http://localhost:8000/server/transactions";
+    const url = "https://moneytraker-1.onrender.com/server/transactions";
     const res = await fetch(url);
     const data = await res.json();
     return data;
   };
   const addNewTransaction = (e) => {
     e.preventDefault();
-    const url = "http://localhost:8000/server/transaction";
+    const url = "https://moneytraker-1.onrender.com/server/transaction";
     const amount = name.split(" ")[0];
     fetch(url, {
       method: "POST",
